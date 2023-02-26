@@ -1,0 +1,12 @@
+[package]
+name = "game-rl"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# dfdx = { version = "0.10", features = [""] } # { git = "https://github.com/coreylowman/dfdx" }
+dfdx = { git = "https://github.com/coreylowman/dfdx", features = ["cuda"] }
+rand = "0.8"
+tungstenite = "0.18.0"
